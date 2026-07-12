@@ -1,0 +1,21 @@
+# 数学智能体项目依赖
+# 安装方式：pip install -r requirements.txt
+
+# 大模型 API 调用
+openai>=1.0.0
+
+# Lagent 框架（需从源码安装）
+# git clone https://github.com/InternLM/lagent.git
+# cd lagent
+# pip install -e .
+
+# 数学计算
+numpy>=1.24.0
+sympy>=1.12
+scipy>=1.10.0
+
+# 数据处理和保存
+pandas>=2.0.0
+
+# 环境变量管理
+python-dotenv>=1.0.0

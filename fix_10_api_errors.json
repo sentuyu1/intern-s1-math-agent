@@ -1,0 +1,12 @@
+[
+  {"id": "comb_hard_1_fix", "domain": "组合数学", "problem": "求 n 个元素集合上满足 A∩B∩C=∅ 的三元组 (A,B,C) 的个数，其中 A,B,C 是子集。每个元素在A,B,C中的归属有8种可能性，排除同时属于ABC的情况。直接计数即可。写出答案公式。"},
+  {"id": "graph_hard_1_fix", "domain": "图论", "problem": "判断 Petersen 图是否是平面图。Petersen 图包含 K_{3,3} 的细分（可由外部五边形和内部五角星之间的边构造），因此由 Kuratowski 定理它是非平面图。"},
+  {"id": "graph_hard_2_fix", "domain": "图论", "problem": "用 Hall 婚姻定理证明：每个 k-正则二分图（k≥1）都存在完美匹配。提示：验证 Hall 条件 — 对任意子集S，其邻域|N(S)|≥|S|。"},
+  {"id": "logic_hard_1_fix", "domain": "数理逻辑", "problem": "简述 Compactness 定理的 Henkin 证明思路：1. 将Γ扩展为极大一致集；2. 添加Henkin常数c_φ对每个存在公式∃x φ(x)；3. 用常数的等价类构造模型。不需要完整细节。"},
+  {"id": "logic_hard_2_fix", "domain": "数理逻辑", "problem": "简述 Löwenheim-Skolem 下降定理证明：对无限模型M，取可数初等子模型。用Tarski-Vaught判别法：取Skolem函数的闭包得到可数初等子模型。"},
+  {"id": "ode_hard_1_fix", "domain": "常微分方程", "problem": "求 Sturm-Liouville 问题 y''+λy=0, y(0)=0, y'(π)=0 的特征值。分λ=0, λ>0, λ<0 讨论。写出特征值λ_n=(n+1/2)^2 和特征函数 y_n=sin((n+1/2)x)。"},
+  {"id": "ode_hard_2_fix", "domain": "常微分方程", "problem": "Van der Pol 方程 y''-μ(1-y²)y'+y=0。近似振幅计算：对μ=0，解为y=A cos t。一阶摄动分析给出振幅方程，近似极限环振幅=2。简要说明。"},
+  {"id": "func_hard_1_fix", "domain": "泛函分析", "problem": "证明开映射定理的核心步骤：1. 由Baire纲定理，T(B_X(0,1))的闭包有非空内部；2. 由此推出T(B_X(0,1/2))的闭包包含某个B_Y(0,r)；3. 迭代得到T是开映射。简述三步。"},
+  {"id": "func_hard_2_fix", "domain": "泛函分析", "problem": "Hahn-Banach 分离定理证明思路：1. 对凸集A-B应用 Hahn-Banach 延拓定理；2. 构造次线性泛函p(x)=inf{t>0:x/t∈C}；3. 分离泛函由紧性和闭性保证严格不等式。"},
+  {"id": "disc_hard_1_fix", "domain": "离散数学", "problem": "求 Catalan 数生成函数。令 G(x)=∑C_n x^n。由递推 C_{n+1}=∑C_k C_{n-k}，得 G(x)=1+xG(x)^2。解二次方程得 G(x)=(1-√(1-4x))/(2x)。展开得 C_n=C(2n,n)/(n+1)。"}
+]
